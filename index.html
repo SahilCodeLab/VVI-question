@@ -106,82 +106,6 @@ header h1 {
     font-weight: 600;
 }
 
-/* Sidebar Styling */
-.sidebar {
-    max-width: 350px;
-    margin: 2rem auto;
-    background: #fff;
-    padding: 2rem;
-    border-radius: 12px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-    text-align: center;
-}
-
-.sidebar img {
-    width: 150px;
-    border-radius: 50%;
-    border: 6px solid #2B4B7C;
-    padding: 6px;
-    background: #fff;
-    margin-bottom: 1.5rem;
-    transition: transform 0.3s ease;
-}
-
-.sidebar img:hover {
-    transform: scale(1.1);
-}
-
-.sidebar h1 {
-    font-size: clamp(20px, 4vw, 24px);
-    color: #2B4B7C;
-    margin-bottom: 1rem;
-    font-weight: 700;
-}
-
-.sidebar p {
-    font-size: clamp(14px, 2vw, 16px);
-    color: #666;
-    margin-bottom: 1.5rem;
-}
-
-.social-icons a {
-    display: inline-block;
-    margin: 0 0.5rem;
-    border: 2px solid #2B4B7C;
-    border-radius: 8px;
-    width: 42px;
-    height: 42px;
-    line-height: 38px;
-    font-size: 18px;
-    color: #2B4B7C;
-    text-decoration: none;
-    transition: all 0.3s ease;
-}
-
-.social-icons a:hover {
-    background: #2B4B7C;
-    color: #fff;
-    transform: scale(1.1);
-    box-shadow: 0 4px 15px rgba(43, 75, 124, 0.3);
-}
-
-.hire-btn {
-    margin-top: 1.5rem;
-    background: #2B4B7C;
-    color: #fff;
-    border: none;
-    padding: 0.75rem 1.5rem;
-    font-size: clamp(16px, 2vw, 18px);
-    border-radius: 8px;
-    cursor: pointer;
-    transition: background 0.3s ease, transform 0.3s ease;
-}
-
-.hire-btn:hover {
-    background: #0056b3;
-    transform: translateY(-2px);
-    box-shadow: 0 4px 15px rgba(0, 86, 179, 0.3);
-}
 
 /* Footer Styling */
 footer {
@@ -270,21 +194,120 @@ footer {
 </head>
 <body>
 
-    <div class="sidebar">
-        <img src="https://www.dropbox.com/scl/fi/quo1toza68jc12cdmy4v5/IMG_20240721_104654_283.jpg?rlkey=71rohwvli54zncs7763ncea8x&st=bh5mzylg&dl=1" alt="Profile Picture">
-        <h1>Sahil Raza</h1>
-        <p>
-            <b>Web Developer | Video Editor | Script Writer | Graphic Designer | AI Artist</b>
-A passionate creator dedicated to delivering high-quality content that captivates and inspires. With expertise in web development, editing, storytelling, AI art, and design, I craft visuals and experiences that leave a lasting impact.
-        </p>
-        <div class="social-icons mb-4">
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="#"><i class="fab fa-facebook-f"></i></a>
-            <a href="#"><i class="fab fa-linkedin-in"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
-        </div>
-        <button class="hire-btn">Hire Me</button>
+   
+ 
+<div class="sidebar">
+    <img src="https://www.dropbox.com/scl/fi/quo1toza68jc12cdmy4v5/IMG_20240721_104654_283.jpg?rlkey=71rohwvli54zncs7763ncea8x&st=bh5mzylg&dl=1" alt="Profile Picture">
+
+    <h1>Sahil Raza</h1>
+
+    <div class="social-icons mb-4">
+        <a href="https://sahilcodelab.github.io/main.html"><i class="fab fa-github"></i></a>
+        <a href="https://www.reddit.com
+">  <i class="fab fa-reddit-alien"></i>
+</a>
+
+        <a href="https://www.pinterest.com"><i class="fab fa-pinterest-p"></i></a>
+        <a href="https://www.instagram.com/clipztar/"><i class="fab fa-instagram"></i></a>
     </div>
+
+    <!-- Wrap button in a div with margin-top -->
+
+    <h4><b>JOIN OUR STUDY GROUP</b></h4>
+    <h4>Exclusive information is always shared first in my personal group. Only if necessary, it’s shared elsewhere later. If you want timely updates and a real advantage, make sure to join now.</h4>
+    <div style="margin-top: 20px;">
+        <a href="https://chat.whatsapp.com/BTpOdzsygvSA0Ya0wF2hg3" target="_blank" class="hire-btn">
+            <i class="fab fa-whatsapp"></i> Join Group
+        </a>
+    </div>
+</div>
+<style>
+/* Sidebar Styling */
+.sidebar {
+    max-width: 350px;
+    margin: 2rem auto;
+    background: #fff;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.sidebar img {
+    width: 150px;
+    border-radius: 50%;
+    border: 6px solid #2B4B7C;
+    padding: 6px;
+    background: #fff;
+    margin-bottom: 1.5rem;
+    transition: transform 0.3s ease;
+}
+
+.sidebar img:hover {
+    transform: scale(1.1);
+}
+
+.sidebar h1 {
+    font-size: clamp(20px, 4vw, 24px);
+    color: #2B4B7C;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.sidebar p {
+    font-size: clamp(14px, 2vw, 16px);
+    color: #666;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin: 0 0.5rem;
+    border: 2px solid #2B4B7C;
+    border-radius: 8px;
+    width: 42px;
+    height: 42px;
+    line-height: 38px;
+    font-size: 18px;
+    color: #2B4B7C;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.social-icons a:hover {
+    background: #2B4B7C;
+    color: #fff;
+    transform: scale(1.1);
+    box-shadow: 0 4px 15px rgba(43, 75, 124, 0.3);
+}
+
+/* WhatsApp Button Styling */
+.hire-btn {
+    background: #25D366;
+    color: white;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 8px;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    transition: background 0.3s ease, transform 0.2s;
+}
+
+.hire-btn:hover {
+    background: #1DA851;
+    transform: scale(1.05);
+}
+
+.hire-btn i {
+    font-size: 18px;
+}  
+</style>
+
 
 
 
